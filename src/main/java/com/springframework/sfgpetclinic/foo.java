@@ -1,4 +1,4 @@
 package com.springframework.sfgpetclinic;
 
-public class foo {
+public class foo {fdfd
 }
