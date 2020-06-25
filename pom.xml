@@ -22,7 +22,6 @@
         <java.version>11</java.version>
     </properties>
 
-
     <build>
         <plugins>
             <plugin>
@@ -34,8 +33,9 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                     <checkModificationExcludes>
-                        <checkModificationExclude>pom-xml</checkModificationExclude>
+                        <checkModificationExclude>pom.xml</checkModificationExclude>
                     </checkModificationExcludes>
                 </configuration>
             </plugin>
@@ -43,6 +43,5 @@
     </build>
     <scm>
         <developerConnection>scm:git:https://github.com/dunay2/spg-pet-clinic.git</developerConnection>
-      <tag>sfg-pet-clinic-0.0.1</tag>
   </scm>
 </project>
