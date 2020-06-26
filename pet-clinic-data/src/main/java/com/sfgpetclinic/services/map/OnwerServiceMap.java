@@ -4,6 +4,7 @@ import com.sfgpetclinic.model.Owner;
 import com.sfgpetclinic.model.Pet;
 import com.sfgpetclinic.services.OwnerService;
 import com.sfgpetclinic.services.PetService;
+import com.sfgpetclinic.services.PetTypeService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;

@@ -1,30 +1,30 @@
 package com.sfgpetclinic.services.map;
 
-import com.sfgpetclinic.model.PetType;
-import com.sfgpetclinic.services.PetTypeService;
+import com.sfgpetclinic.model.Speciality;
+import com.sfgpetclinic.services.SpecialitiesService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
-public class PetTypeMapService extends AbstractMapService<PetType, Long> implements PetTypeService {
+public class SpecialityMapService extends AbstractMapService<Speciality, Long> implements SpecialitiesService {
     @Override
-    public Set<PetType> findAll() {
+    public Set<Speciality> findAll() {
         return super.findAll();
     }
 
     @Override
-    public PetType findById(Long aLong) {
+    public Speciality findById(Long aLong) {
         return super.findById(aLong);
     }
 
     @Override
-    public PetType save(PetType object) {
+    public Speciality save(Speciality object) {
         return super.save(object);
     }
 
     @Override
-    public void delete(PetType object) {
+    public void delete(Speciality object) {
         super.delete(object);
     }
 

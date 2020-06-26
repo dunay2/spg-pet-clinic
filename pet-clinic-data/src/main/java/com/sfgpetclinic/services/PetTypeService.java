@@ -1,7 +1,6 @@
-package com.sfgpetclinic.services.map;
+package com.sfgpetclinic.services;
 
 import com.sfgpetclinic.model.PetType;
-import com.sfgpetclinic.services.CrudService;
 
 public interface PetTypeService extends CrudService<PetType, Long> {
 }

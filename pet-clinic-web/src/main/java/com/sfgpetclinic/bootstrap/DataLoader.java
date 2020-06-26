@@ -5,8 +5,8 @@ import com.sfgpetclinic.model.Pet;
 import com.sfgpetclinic.model.PetType;
 import com.sfgpetclinic.model.Vet;
 import com.sfgpetclinic.services.OwnerService;
+import com.sfgpetclinic.services.PetTypeService;
 import com.sfgpetclinic.services.VetService;
-import com.sfgpetclinic.services.map.PetTypeService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 
