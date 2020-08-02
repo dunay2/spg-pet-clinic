@@ -1,3 +1,3 @@
 # spg-pet-clinic
 SFT Pet Clinic
-Configuring CircleCI
+Configuring CircleCI.
