@@ -98,6 +98,5 @@
         <developerConnection>scm:git:https://github.com/dunay2/spg-pet-clinic.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
-
 </project>
 
